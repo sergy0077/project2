@@ -1,0 +1,68 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Category 1",
+    "description": "Description 1",
+    "created_at": "2023-08-08T06:41:21.109Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Category 2",
+    "description": "Description 2",
+    "created_at": "2023-08-08T06:41:21.119Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Electronics",
+    "description": "Electronic products",
+    "created_at": "2023-08-08T06:41:21.134Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "name": "Product 1",
+    "description": "Description 1",
+    "image": "",
+    "category": 1,
+    "price": "100.00",
+    "created_at": "2023-08-08T06:41:21.123Z",
+    "last_modified": "2023-08-08T06:41:21.123Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "name": "Product 2",
+    "description": "Description 2",
+    "image": "",
+    "category": 2,
+    "price": "200.00",
+    "created_at": "2023-08-08T06:41:21.133Z",
+    "last_modified": "2023-08-08T06:41:21.133Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "name": "Smartphone",
+    "description": "A high-end smartphone",
+    "image": "",
+    "category": 3,
+    "price": "599.99",
+    "created_at": "2023-08-08T06:41:21.137Z",
+    "last_modified": "2023-08-08T06:41:21.137Z"
+  }
+}
+]
